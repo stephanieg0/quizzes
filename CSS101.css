@@ -1,0 +1,53 @@
+nav {
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+}
+
+.navigation {
+  text-decoration: none;
+  padding-right: 10px;
+  font-size: 25px;
+}
+
+.disabled {
+  color: gray;
+}
+a.disabled{
+  color: purple;
+}
+
+.test {
+  color: purple;
+
+} 
+
+.active {
+  color: yellow;
+}
+
+.Im_red {
+  color: red;
+}
+.Im_red_sister {
+  background-color: red;
+  margin-right: 85%;
+  padding: 10px;
+}
+
+.Im_blue {
+  color: blue;
+}
+
+.Im_blue_brother {
+  background-color: blue;
+  margin-right: 85%;
+  padding: 10px;
+}
+
+.childOfGrandParent {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 85%;
+  padding: 10px;
+}

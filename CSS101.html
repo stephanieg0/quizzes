@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <link rel="stylesheet" type="text/css" href="CSS101.css">
+    <nav> 
+      <a href="#" class="navigation">Home</a>
+      <a href="#" class="navigation">Profile</a>
+      <a href="#" class="navigation">Blog</a>
+    </nav>
+  </header>
+
+  <body>
+  <!--
+    1. Any text in an element with class "disabled" should be colored grey, unless it is inside an anchor tag. If inside an anchor, it should be colored purple.-->
+    <article>
+      <section>
+        <div class="month-list">
+          <ul>
+            <li>
+              <a href="#">January</a>
+              <span class="disabled">My favorite month (GRAY)</span> <!--GRAY-->
+            </li>
+
+            <li>
+              <a href="#">
+                <span class="active">February</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <span class="disabled">March (PURPLE)</span> <!--PURPLE-->
+              </a>
+            </li>
+
+            <li>
+              <a href="#">April</a>
+            </li>
+
+            <li>
+              <a href="#">
+                <div class="promo">
+                  <span class="disabled">May (PURPLE)</span> <!--PURPLE-->
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">June</a>
+            </li>
+
+            <li>
+              <a href="#">July</a>
+            </li>
+
+            <li>
+              <a href="#">August</a>
+              <span class="disabled">My least favorite month(GRAY)</span> <!--GRAY-->
+            </li>
+
+            <li>
+              <a href="#">September</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </article>
+    <div class="grandparent">
+      <div class="parent">
+        <h4>Child of parent</h4>
+      </div>
+          <div class="Im_red">I'm red!</div>
+          <div class="Im_red_sister">
+            <h4>I'm red's sister</h4> 
+          </div>
+          <div class="Im_blue">I'm blue!</div>
+          <div class="Im_blue_brother">
+          <h4>I'm blue's brother</h4>
+          </div>
+      <div class="childOfGrandParent">
+        <h4>Child of grandparent</h4>
+      </div>
+    </div>
+  </body>
+  <footer class="padded">
+    <div class="promo">
+      Purchase a book today and receive the eBook for free!
+    </div>
+
+    <div class="disclaimer">
+      Only one purchase per household. 
+      <a href="#">
+        <span class="footer-link">
+          <span class="disabled">
+            Privacy Policy
+          </span>
+        </span>
+
+    </div>
+  </footer>
+</html>
