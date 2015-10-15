@@ -13,7 +13,7 @@ nav {
 .disabled {
   color: gray;
 }
-a.disabled{
+a span.disabled{
   color: purple;
 }
 
